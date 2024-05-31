@@ -1,0 +1,6 @@
+GARIMA & THEMLA collaboration data (IBD cohort from India)
+==========================================================
+- 304 samples (cases, controls, technical controls)
+
+rawdata: fastq files (one pair per sample)
+results: processed files (MP4, MP3, H3.6)

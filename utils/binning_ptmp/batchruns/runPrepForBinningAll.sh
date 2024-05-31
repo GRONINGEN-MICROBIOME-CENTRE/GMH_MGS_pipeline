@@ -1,0 +1,10 @@
+#!/bin/bash
+FLD=/data/umcg-tifn/rgacesa/dag3_pipeline_3c/utils/binning_ptmp
+# iterate over folders, submit refiner for each folder
+for F in */
+do
+cd ${F}
+mkdir -p JOB_OUT
+sbatch ${FLD}/prepForBinningMegaHit.sh
+cd ..
+done
