@@ -13,7 +13,7 @@
 # puts results in the current folder!
 
 # PARAMS
-N=50 # --marker_in_n_samples
+N=3 # --marker_in_n_samples
 S=20 # --sample_with_n_markers 20
 DB=/scratch/hb-tifn/condas/conda_biobakery4/lib/python3.10/site-packages/metaphlan/metaphlan_databases/mpa_vOct22_CHOCOPhlAnSGB_202212.pkl
 
