@@ -9,6 +9,8 @@ NOTES:
 - If running the pipeline on one computer (rather then HPC), make sure following parameters in config file are set: [PIPELINE]: useNodeTMP = 0; useSlurm = 0
 
 - Requirements: software: linux, conda; hardware: ~300GB of disk space (mainly for databases), ~64 GB RAM
+  
+- There were some reports of kneaddata versions after 0.10.0 incorrectly sorting paired end reads in some sequencing files. This pipeline uses v.0.10.0 (in conda_biobakery3 environment) to avoid these potential issues, please double-check kneaddata output if using different versions
 
 ## Description
 
