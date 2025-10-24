@@ -48,7 +48,7 @@ echo -e "NOTE: Before running this script, please run package_installation.bash 
 source /scratch/p287673/condas_tools/samsa2/bash_scripts/lib/common.sh
 
 INPUT_DIR=/scratch/p287673/2024_Wastewater_SAMSA2/
-OUT_DIR=/scratch/p287673/2024_Wastewater_SAMSA2_output/
+OUT_DIR=/scratch/p287673/2024_Wastewater_SAMSA2_output_v2/
 mkdir -p ${OUT_DIR}
 
 echo "SAMSA PATH = ${SAMSA}"
